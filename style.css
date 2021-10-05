@@ -44,18 +44,23 @@ text-align: right;
       background-color:pink;
       font-style: italic;
   }
+  </div>
+</nav>
   body{
       background-image: url("bg.jfif");
   }
   #gumnaami{
+      margin:4px;
       background-color: white;
       font-family: cursive;
       font-size: 40px;
   }
   #img{
+      padding:5px;
       float:right;
   }
   #img1{
+      padding:5px;
       float:left;
   }
   
@@ -88,23 +93,28 @@ text-align: right;
     background-color: white;
     font-family: cursive;
     font-size: 40px;
+    padding:5px;
 }
 #borun{
+    padding:5px;
   background-color: white;
   font-family: cursive;
   font-size: 40px;
 }
 #tanhaji{
+    padding:5px;
   background-color: white;
   font-family: cursive;
   font-size: 40px;
 }
 #pupil{
+    padding:5px;
   background-color: white;
   font-family: cursive;
   font-size: 40px;
 }
 #harry{
+    padding:5px;
   background-color: white;
   font-family: cursive;
   font-size: 40px;
