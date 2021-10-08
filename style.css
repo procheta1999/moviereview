@@ -1,116 +1,125 @@
-#pro{
-    font-size:50 px;
- text-align: center;
- background-color: pink;
- font-style: italic;
- font-family:Arial, Helvetica, sans-serif;
- text-shadow: 1px 2px 4px purple;   
+html {
+  scroll-behavior: smooth;
 }
-#m{
-    font-size: 70px;
-    line-height: 80px;
+
+#pro {
+  font-size: 50 px;
+  text-align: center;
+  background-color: pink;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 1px 2px 4px purple;
 }
-#mov{
-    font-size :50px;
-    text-align: left;
-    animation: pulse 10s infinite;
+#m {
+  font-size: 70px;
+  line-height: 80px;
+}
+#mov {
+  font-size: 50px;
+  text-align: left;
+  animation: pulse 10s infinite;
 }
 @keyframes pulse {
-    0% {
-      background-image:url("images.png");
-      color:black;
-      text-align: left;
-    }
-    30% {
-        background-image: url("download.jfif");
-    color:white;
-    text-align: center;
-    }
-    40% {
-      background-image:url("images.jfif");
-color:yellow;    
-text-align: right;
-    }
-    100%{
-        background-image: url("hp.png");
-        color:black;
-        text-align: left;
-    }
-  }
-  ul{
-      text-align: center;
-      font-family: sans-serif;
-      font-size:50px;
-      background-color:pink;
-      font-style: italic;
-  }
-  body{
-      background-image: url("bg.jfif");
-  }
-  #gumnaami{
-      background-color: white;
-      font-family: cursive;
-      font-size: 40px;
-  }
-  #img{
-      float:right;
-  }
-  #img1{
-      float:left;
-  }
-  
-  
-  .container {
-    position: relative;
-    width: 100%;
-    max-width: 400px;
-  }
-  .container .btn {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #f1f1f1;
+  0% {
+    background-image: url("images.png");
     color: black;
-    font-size: 16px;
-    padding: 16px 30px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
+    text-align: left;
+  }
+  30% {
+    background-image: url("download.jfif");
+    color: white;
     text-align: center;
   }
-  .container .btn:hover {
-    background-color: white;
+  40% {
+    background-image: url("images.jfif");
+    color: yellow;
+    text-align: right;
+  }
+  100% {
+    background-image: url("hp.png");
     color: black;
-  }  
-  #chhapaak{
-    background-color: white;
-    font-family: cursive;
-    font-size: 40px;
+    text-align: left;
+  }
 }
-#borun{
+ul {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 50px;
+  background-color: pink;
+  font-style: italic;
+}
+body {
+  background-image: url("bg.jfif");
+}
+#gumnaami {
   background-color: white;
   font-family: cursive;
   font-size: 40px;
 }
-#tanhaji{
+#img {
+  float: right;
+}
+#img1 {
+  float: left;
+}
+
+.container {
+  margin: 10px;
+
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.container .btn:hover {
+  background-color: white;
+  color: black;
+}
+#chhapaak {
   background-color: white;
   font-family: cursive;
   font-size: 40px;
 }
-#pupil{
+#borun {
   background-color: white;
   font-family: cursive;
   font-size: 40px;
 }
-#harry{
+#tanhaji {
   background-color: white;
   font-family: cursive;
   font-size: 40px;
 }
-footer{
+#pupil {
+  background-color: white;
+  font-family: cursive;
+  font-size: 40px;
+}
+#harry {
+  background-color: white;
+  font-family: cursive;
+  font-size: 40px;
+}
+#shawshank {
+  background-color: white;
+  font-family: cursive;
+  font-size: 40px;
+}
+footer {
   background-color: wheat;
   text-align: center;
-  
 }
