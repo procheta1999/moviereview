@@ -72,14 +72,11 @@ text-align: right;
   }
   .container .btn {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #f1f1f1;
+    top: 100%;
+    left: 100%;
     color: black;
     font-size: 16px;
-    padding: 16px 30px;
+    padding: 13px 100%;
     border: none;
     cursor: pointer;
     border-radius: 5px;
