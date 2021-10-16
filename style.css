@@ -21,22 +21,22 @@ html {
 }
 @keyframes pulse {
   0% {
-    background-image: url("images.png");
+    background-image: url("images/images.png");
     color: black;
     text-align: left;
   }
   30% {
-    background-image: url("download.jfif");
+    background-image: url("images/download.jfif");
     color: white;
     text-align: center;
   }
   40% {
-    background-image: url("images.jfif");
+    background-image: url("images/images.jfif");
     color: yellow;
     text-align: right;
   }
   100% {
-    background-image: url("hp.png");
+    background-image: url("images/hp.png");
     color: black;
     text-align: left;
   }
@@ -49,7 +49,7 @@ ul {
   font-style: italic;
 }
 body {
-  background-image: url("bg.jfif");
+  background-image: url("images/bg.jfif");
 }
 #gumnaami {
   background-color: white;
