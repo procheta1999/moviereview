@@ -21,22 +21,22 @@ html {
 }
 @keyframes pulse {
   0% {
-    background-image: url("https://github.com/procheta1999/moviereview/blob/master/images/images.png");
+    background-image: url("images.png");
     color: black;
     text-align: left;
   }
   30% {
-    background-image: url("https://github.com/procheta1999/moviereview/blob/master/images/download.jfif");
+    background-image: url("download.jfif");
     color: white;
     text-align: center;
   }
   40% {
-    background-image: url("https://github.com/procheta1999/moviereview/blob/master/images/images.jfif");
+    background-image: url("images.jfif");
     color: yellow;
     text-align: right;
   }
   100% {
-    background-image: url("https://github.com/procheta1999/moviereview/blob/master/images/hp.png");
+    background-image: url("hp.png");
     color: black;
     text-align: left;
   }
@@ -49,7 +49,7 @@ ul {
   font-style: italic;
 }
 body {
-  background-image: url("https://github.com/procheta1999/moviereview/blob/master/images/bg.jfif");
+  background-image: url("bg.jfif");
 }
 #gumnaami {
   background-color: white;
