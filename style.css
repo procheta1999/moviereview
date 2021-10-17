@@ -47,15 +47,13 @@ ul {
   font-size: 50px;
   background-color: pink;
   font-style: italic;
+  color: black;
 }
-body {
+
+.body_img {
   background-image: url("bg.jfif");
 }
-#gumnaami {
-  background-color: white;
-  font-family: cursive;
-  font-size: 40px;
-}
+
 #img {
   float: right;
 }
@@ -76,7 +74,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: #f1f1f1;
+  background-color: rgb(185, 182, 182);
   color: black;
   font-size: 16px;
   padding: 16px 30px;
@@ -86,10 +84,20 @@ body {
   text-align: center;
 }
 .container .btn:hover {
-  background-color: white;
+  background-color: #f1f1f1;
   color: black;
 }
-#chhapaak {
+.p{
+  background-color: white;
+  font-family: cursive;
+  font-size: 40px;
+} 
+/* #gumnaami {
+  background-color: blue;
+  font-family: cursive;
+  font-size: 40px;
+} 
+ #chhapaak {
   background-color: white;
   font-family: cursive;
   font-size: 40px;
@@ -120,11 +128,54 @@ body {
   font-size: 40px;
 }
 #threeidiots{
-  background-color: white;
+  background-color:white;
+  font-family: cursive;
+  font-size: 40px;
+} */
+
+.para {
+  background-color:white;
   font-family: cursive;
   font-size: 40px;
 }
 footer {
   background-color: wheat;
   text-align: center;
+  color: black;
+}
+.mode{
+  margin-top: 100px;
+}
+
+body {
+  padding: 10% 3% 10% 3%;
+  text-align: center;
+}
+
+
+.mode {
+  float: left;
+}
+
+.change {
+  cursor: pointer;
+  border: 1px solid #555;
+  border-radius: 40%;
+  width: 20px;
+  text-align: center;
+  padding: 5px;
+  margin-left: 8px;
+}
+
+.dark {
+  background-color: #222;
+  color: #e6e6e6;
+}
+
+.light {
+  background-color:rgb(214, 208, 208);
+}
+
+.body_img {
+  background-image: url("bg.jfif");
 }
