@@ -48,7 +48,7 @@ ul {
   background-color: pink;
   font-style: italic;
 }
-body {
+.body_img {
   background-image: url("bg.jfif");
 }
 #gumnaami {
@@ -89,7 +89,7 @@ body {
   background-color: white;
   color: black;
 }
-#chhapaak {
+/* #chhapaak {
   background-color: white;
   font-family: cursive;
   font-size: 40px;
@@ -123,6 +123,16 @@ body {
   background-color: white;
   font-family: cursive;
   font-size: 40px;
+} */
+.para{
+  background-color: white;
+  font-family: cursive;
+  font-size: 40px;
+}
+
+.dark {
+  background-color: #222;
+  color: #e6e6e6;
 }
 footer {
   background-color: wheat;
