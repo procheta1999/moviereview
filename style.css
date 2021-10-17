@@ -50,15 +50,10 @@ ul {
   color: black;
 }
 
-/* body {
+.body_img {
   background-image: url("bg.jfif");
-} */
-
-#gumnaami {
-  /* background-color: white; */
-  font-family: cursive;
-  font-size: 40px;
 }
+
 #img {
   float: right;
 }
@@ -92,38 +87,54 @@ ul {
   background-color: #f1f1f1;
   color: black;
 }
-#chhapaak {
-  /* background-color: white; */
+.p{
+  background-color: white;
+  font-family: cursive;
+  font-size: 40px;
+} 
+/* #gumnaami {
+  background-color: blue;
+  font-family: cursive;
+  font-size: 40px;
+} 
+ #chhapaak {
+  background-color: white;
   font-family: cursive;
   font-size: 40px;
 }
 #borun {
-  /* background-color: white; */
+  background-color: white;
   font-family: cursive;
   font-size: 40px;
 }
 #tanhaji {
-  /* background-color: white; */
+  background-color: white;
   font-family: cursive;
   font-size: 40px;
 }
 #pupil {
-  /* background-color: white; */
+  background-color: white;
   font-family: cursive;
   font-size: 40px;
 }
 #harry {
-  /* background-color: white; */
+  background-color: white;
   font-family: cursive;
   font-size: 40px;
 }
 #shawshank {
-  /* background-color: white; */
+  background-color: white;
   font-family: cursive;
   font-size: 40px;
 }
 #threeidiots{
-  /* background-color:white; */
+  background-color:white;
+  font-family: cursive;
+  font-size: 40px;
+} */
+
+.para {
+  background-color:white;
   font-family: cursive;
   font-size: 40px;
 }
@@ -134,4 +145,37 @@ footer {
 }
 .mode{
   margin-top: 100px;
+}
+
+body {
+  padding: 10% 3% 10% 3%;
+  text-align: center;
+}
+
+
+.mode {
+  float: left;
+}
+
+.change {
+  cursor: pointer;
+  border: 1px solid #555;
+  border-radius: 40%;
+  width: 20px;
+  text-align: center;
+  padding: 5px;
+  margin-left: 8px;
+}
+
+.dark {
+  background-color: #222;
+  color: #e6e6e6;
+}
+
+.light {
+  background-color:rgb(214, 208, 208);
+}
+
+.body_img {
+  background-image: url("bg.jfif");
 }
