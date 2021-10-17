@@ -6,9 +6,53 @@
     <h1>
         <p id="pro"><span id="m"></span>MOVIE REVIEWS</p>
     </h1>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+    </script>
+
+    <style>
+        body {
+            padding: 10% 3% 10% 3%;
+            text-align: center;
+        }
+
+
+        .mode {
+            float: left;
+        }
+
+        .change {
+            cursor: pointer;
+            border: 1px solid #555;
+            border-radius: 40%;
+            width: 20px;
+            text-align: center;
+            padding: 5px;
+            margin-left: 8px;
+        }
+
+        .dark {
+            background-color: #222;
+            color: #e6e6e6;
+        }
+
+        .light {
+            background-color:rgb(214, 208, 208);
+            color: black;
+        }
+
+        .body_img {
+            background-image: url("bg.jfif");
+        }
+    </style>
 </head>
 
 <body>
+    <div class="mode">
+        Dark mode:
+        <span class="change">OFF</span>
+    </div>
     <p id="mov">MOVIES LIST</p>
     <ul>
         <li><a href="#gumnaami">GUMNAAMI</a></li>
@@ -21,7 +65,7 @@
         <li><a href="#threeidiots">3 IDIOTS</a></li>
 
     </ul>
-    <p><img id="img" src="images/GUMNAAMI.jfif" style="width:400px;height:400px;margin-left:15px;">
+    <p class = "item"><img id="img" src="images/GUMNAAMI.jfif" style="width:400px;height:400px;margin-left:15px;">
     <div id="gumnaami">
         GUMNAAMI: A thriller, directed by Srijit Mukherjee, involving the disappearence of the greatest Indian hero of
         all times,
@@ -51,7 +95,7 @@
     </div>
     <br>
     <br>
-    <p><img id="img" src="images/chhapaak.jfif" style="width:400px;height:400px;margin-left:15px;">
+    <p class = "item"><img id="img" src="images/chhapaak.jfif" style="width:400px;height:400px;margin-left:15px;">
     <div id="chhapaak">
         CHHAPAAK: A film , revealing before our eyes, the dangerous impacts of acid-attacks on women and making us aware
         of it.
@@ -226,7 +270,19 @@
         </div>
         <br>
         <br>
-
+        <script>
+            $(".change").on("click", function () {
+                if ($("body").hasClass("dark")) {
+                    $("body").removeClass("dark");
+                    $("body").addClass("light");
+                    $(".change").text("OFF");
+                } else {
+                    $("body").removeClass("light");
+                    $("body").addClass("dark");
+                    $(".change").text("ON");
+                }
+            });
+        </script>
     <footer>
         Procheta Bhattacharyya
     </footer>
