@@ -33,14 +33,9 @@
 - Clone on your local machine
 
 ```
-git clone https://github.com/fineanmol/Hacktoberfest2021.git
+git clone https://github.com/procheta1999/moviereview.git
 
 ```
-- Navigate to project directory.
-```
-cd Hacktoberfest2021
-```
-
 - Create a new branch
 
 ```markdown
